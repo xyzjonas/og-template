@@ -11,7 +11,7 @@
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "pocketbase": "pocketbase/pocketbase serve"
+    "pb": "pocketbase/pocketbase serve"
   },
   "dependencies": {
     "@iconify-json/hugeicons": "^1.1.0",
